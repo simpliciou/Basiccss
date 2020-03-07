@@ -1,0 +1,149 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower&display=swap');
+
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  header {
+      padding-left: 15%;
+      padding-right: 15%;
+      background-color: #727272;
+  }
+
+  h1 {
+      display: inline-block;
+      margin-right: -4px;
+      width: 15%;
+      /*border: 1px solid black;*/
+      font-size: 40px;
+      vertical-align: middle;
+      color: white;
+      font-weight: 100;
+  }
+
+  header h1 span {
+      font-family: 'Indie Flower', cursive;
+      font-weight: 900;
+      font-size: 46px;
+      font-style: italic;
+
+  }
+
+  body {
+      font-family: 'Inconsolata', monospace;
+      color: #727272;
+      background-color: #efefef;
+      font-size: 16px;
+  }
+
+  nav {
+      display: inline-block;
+      width: 80%;
+      margin-right: -4px;
+      /*border: 1px solid black;*/
+      font-size: 20px;
+      text-align: right;
+      vertical-align: middle;
+  }
+  header nav a {
+
+      display: inline-block;
+      padding: 34px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      margin: -4px;
+  }
+  header nav :hover {
+
+      background-color: darkgray;
+  }
+  header nav :active{
+      color: chartreuse;
+  }
+  main {
+      width: 70%;
+      /* border: 1px solid black; */
+      margin: 20px auto 0 auto;
+  }
+  main section {
+      display: inline-block;
+      margin-right: -4px;
+      vertical-align: top;
+      width: 70%;
+      /*border: 1px solid red*/
+      background-color: white;
+  }
+  main aside {
+      display: inline-block;
+      margin-right: -4px;
+      vertical-align: top;
+      width: 27%;
+      margin-left: 3%;
+      /* border: 1px solid red */
+  }
+  main section img {
+      width: 100%;
+  }
+  section div {
+      margin: 20px 0 0 0;
+  }
+  main section h2 {
+      margin-top: top 20px;
+      font-size: 16px;
+      padding: 0 20px;
+  }
+  main section p {
+      margin-top: 20px;
+      padding: 0 20px;
+      padding-bottom: 15px;
+  }
+  .aside-box {
+      background-color: white;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+  }
+  .aside-box h3 {
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      text-align: center;
+      border-bottom: 1px solid #727272;
+      text-transform: uppercase;
+      margin-top: 10px;
+  }
+  .aside-box input {
+      height: 35px;
+      width: 70%;
+      margin-left: 10px;
+      border: 1px solid grey;
+  }
+  .aside-box button {
+      width: 15%;
+      height: 35px;
+      background-color: grey;
+      color: white
+  }
+  .aside-box ul {
+      margin-left: 37px;
+      margin-right: 25px;
+  }
+  .aside-box ul {
+      font-size: 15px;
+      line-height: 25px;
+  }
+  .aside-box p {
+      margin-left: 0px;
+      text-align: center;
+  }
+  .aside-box div input {
+      margin-left: 50px;
+      margin-top: 10px;
+      
+  }
